@@ -1,0 +1,21 @@
+{
+  "name": "send-sendgrid-emails",
+  "version": "1.0.0",
+  "description": "Sends sendgrid emails from a contact list",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx ts-node src/index.ts"
+  },
+  "author": "Aleksandar Petkov",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.5.1",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@sendgrid/client": "^8.1.3",
+    "@sendgrid/mail": "^8.1.3"
+  }
+}
